@@ -16,6 +16,8 @@ The final CNN structure is depicted below:
 
 ![alt text](<captchacnn.png>)
 
+The accuracy results were evaluated individually, i.e. each letter either correct or not; and overall accuracy which meant that all the letters from a specific CAPTCHA image needed to be correctly classified in order for that CAPTCHA be correct. As expected, the overall accuracies were lower than the individual accuracies.
+
 The final overall CAPTCHA accuracy obtained in the soft dataset was around 80%, which is low when compared to the 95% individual character accuracy obtained in the test of the model. The resulting confusion matrix:
 
 ![alt text](<Sem título-1-1.png>)
