@@ -12,4 +12,16 @@ The sets of images that were provided consisted of two major groups:
 
 ![alt text](<Sem título-1.png>)
 
-The data set is in the .rar file. The project is present at the colab file [CV]Project_2.ipynb and also in html format which allows for fast visualization in a browser.
+The final CNN structure is depicted below:
+
+![alt text](<captchacnn.png>)
+
+The final overall CAPTCHA accuracy obtained in the soft dataset was around 80%, which is low when compared to the 95% individual character accuracy obtained in the test of the model. The resulting confusion matrix:
+
+![alt text](<Sem título-1-1.png>)
+
+In the hard dataset, the final overall CAPTCHA accuracy obtained was around 76%, which is also low when compared to the 95% individual character accuracy obtained in the test of the model. The resulting confusion matrix:
+
+![alt text](<Sem título-2.png>)
+
+The dataset is in the .rar file. The project is present at the colab file [CV]Project_2.ipynb, and also in html format, which allows for fast visualization in the browser.
